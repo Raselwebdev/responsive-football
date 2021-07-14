@@ -1,0 +1,120 @@
+/*=====Responsive code start here=======*/
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width: 480px) and (max-width: 600px) {
+/* banner part start  */
+    body{
+        overflow-x: hidden!important;
+    }
+    .banner{
+        display: block;
+    }
+    .banner_content h1{
+        font-size: 30px;
+    }
+
+    .banner_content a{
+        padding: 10px 10px;
+    }
+    .banner_con{
+        width: 100%;
+    }
+    .banner_img{
+       width: 100%;
+    }
+
+    .banner_img img{
+        margin-top: 60px;
+    }
+/* banner part end */
+
+/* TEAM PART START */
+
+.team_card_main{
+    display: block;
+}
+
+.team_card{
+    width: 80%;
+    margin-left: 7%;
+}
+
+
+/* TEAM PART END */
+
+/* highlight part start  */
+#highlight{
+    display: block;
+    margin-top: 100px;
+}
+
+.higligh_con{
+    width: 80%;
+    margin-left: 7%;
+    padding-top: 40px;
+}
+
+.highlight_img{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 40px;
+}
+.highlight_img img{
+    width: 100%;
+}
+
+/* highlight part end  */
+
+/* history part start  */
+
+#history{
+    display: block;
+    margin-top: 100px;
+}
+.history_img{
+    width: 80%;
+    margin-left: 7%;
+}
+.history_img img{
+    width: 100%;
+}
+.history_con{
+    width: 80%;
+    margin-left: 7%;
+}
+.history_con ul li{
+    padding: 10px 20px;
+    background-color: #2d25a0;
+}
+
+/* history part end */
+
+/* about part start  */
+#about{
+    display: block;
+    margin-top: 40px;
+}
+
+.about_con{
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 100px;
+}
+.about_con h1{
+    font-size: 30px;
+    padding: 12px 0;
+    
+}
+.about_img{
+    width: 80%;
+    margin-left: 7%;
+}
+
+/* about part end */
+
+
+
+
+}
+
+/*=====Responsive code end here=======*/

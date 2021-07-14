@@ -12,8 +12,10 @@ ul,ol{
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Open Sans', sans-serif;
- 
+    overflow-x: hidden;
 }
+
+/* banner part start  */
 #banner{
     display: flex;
     background-color: #2d25a0;
@@ -52,6 +54,7 @@ body{
     width: 100%;
 }
 
+/* banner part end */
 
 /* my Team part css start  */
 
@@ -238,4 +241,8 @@ footer{
     margin-bottom: 40px;
 }
 /* footer part css  end */
+
+
+
+
 
