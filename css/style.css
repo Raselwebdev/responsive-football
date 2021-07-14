@@ -10,7 +10,9 @@ ul,ol{
     list-style: none;
 }
 body{
-
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+ 
 }
 #banner{
     display: flex;
@@ -26,6 +28,8 @@ body{
     font-size: 80px;
     color: white;
     margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 .banner_content a{
     padding: 12px 25px;
@@ -34,7 +38,11 @@ body{
     text-transform: capitalize;
 }
 .banner_content a i{
-    padding-left: 20px;
+    padding-left: 20px; 
+}
+.banner_content a i{
+    transform: rotate(360deg);
+    transition: all linear 5s;
 }
 .banner_img{
     width: 40%;
@@ -45,7 +53,7 @@ body{
 }
 
 
-/* my recipies part css start  */
+/* my Team part css start  */
 
 .team_card_main{
     display: flex;
@@ -69,12 +77,14 @@ body{
     font-size: 21px;
     padding-top: 8px;
     padding-bottom: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     
 }
 .team_card p{
     color: #5D6978;
 }
-/* my recipies part css end  */
+/* my Team part css end  */
 
 /* highlight part css start   */
 #highlight{
@@ -89,7 +99,9 @@ body{
 }
 .higligh_con h1{
     color: black;
-    font-size: 64px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 .higligh_con p{
     padding-bottom: 40px;
@@ -115,9 +127,85 @@ body{
 
 /* highlight part css end   */
 
+/* history part css start  */
+#history{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.history_img{
+    width: 40%;
+    margin-left: 5%;
+}
+.history_img img{
+    width: 80%;
+}
+.history_con{
+    width: 40%;
+}
+.history_con h1{
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.his_h1 {
+    color: orange;
+}
+.history_con ul{
+    display: flex;
+}
+
+.history_con ul li{
+    padding: 10px 30px;
+    background-color: #2d25a0;
+}
+.history_con ul li:hover{
+    background-color: orange;
+}
+.history_con ul li a{
+    color: white;
+}
+.history_con p{
+    padding-bottom: 14px;
+}
+.history_con h4{
+    padding: 14px 0;
+}
+.p_tag{
+    line-height: 28px;
+}
+/* history part css end */
+/* Bonus section about part css start  */
+#about{
+    display: flex;
+    margin-top: 40px;
+}
+
+.about_con{
+    width: 40%;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+.about_con h1{
+    font-size: 40px;
+    padding: 12px 0;
+    
+}
+.club{
+    color: orange;
+}
+.about_con p{
+    line-height: 29px;
+}
+.about_img{
+    width: 40%;
+    margin-left: 5%; 
+}
+/* Bonus section about part css end */
 /* footer part css start  */
 footer{
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .footer_logo{
     text-align: center;
@@ -150,3 +238,4 @@ footer{
     margin-bottom: 40px;
 }
 /* footer part css  end */
+
