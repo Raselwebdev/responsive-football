@@ -15,11 +15,12 @@ body{
 #banner{
     display: flex;
     background-color: #2d25a0;
-    padding: 200px 0;
+    padding: 100px 0;
 }
 .banner_content{
     width: 40%;
-    margin-left: 5%;
+    margin-left: 10%;
+    padding-top: 40px;
 }
 .banner_content h1{
     font-size: 80px;
@@ -30,6 +31,10 @@ body{
     padding: 12px 25px;
     background-color: #e02c6d;
     color: white;
+    text-transform: capitalize;
+}
+.banner_content a i{
+    padding-left: 20px;
 }
 .banner_img{
     width: 40%;
@@ -38,3 +43,110 @@ body{
 .banner_img img{
     width: 100%;
 }
+
+
+/* my recipies part css start  */
+
+.team_card_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.team_card{
+    width: 22%;
+    margin-left: 3%;
+    margin-top: 30px;
+    padding: 20px 20px 40px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 20px rgb(180, 171, 171);
+}
+.team_card img{
+    width: 100%;
+}
+.team_card h3{
+    font-size: 21px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+    
+}
+.team_card p{
+    color: #5D6978;
+}
+/* my recipies part css end  */
+
+/* highlight part css start   */
+#highlight{
+    display: flex;
+    color: black;
+    margin-top: 100px;
+}
+.higligh_con{
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+.higligh_con h1{
+    color: black;
+    font-size: 64px;
+}
+.higligh_con p{
+    padding-bottom: 40px;
+    color: #6c6c6c;
+}
+
+.higligh_con a{
+    padding: 12px 25px;
+    background-color: #e02c6d;
+    color: white;
+    text-transform: capitalize;
+}
+.higligh_con a i{
+    padding-left: 20px;
+}
+.highlight_img{
+    width: 40%;
+    margin-left: 5%;
+}
+.highlight_img img{
+    width: 95%;
+}
+
+/* highlight part css end   */
+
+/* footer part css start  */
+footer{
+    margin-top: 150px;
+}
+.footer_logo{
+    text-align: center;
+}
+.footer_logo img{
+  width: 40%;
+}
+
+.footer_icon ul{
+   display: flex;
+   justify-content: center;
+}
+.footer_icon ul li{
+    margin: 0 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #e7e7e8;
+}
+
+.footer_icon ul li a{
+    color: #969bab;
+}
+
+.footer_con p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/* footer part css  end */
