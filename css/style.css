@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+
+}
+#banner{
+    display: flex;
+    background-color: #2d25a0;
+    padding: 200px 0;
+}
+.banner_content{
+    width: 40%;
+    margin-left: 5%;
+}
+.banner_content h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+.banner_content a{
+    padding: 12px 25px;
+    background-color: #e02c6d;
+    color: white;
+}
+.banner_img{
+    width: 40%;
+    margin-left: 5%;
+}
+.banner_img img{
+    width: 100%;
+}
